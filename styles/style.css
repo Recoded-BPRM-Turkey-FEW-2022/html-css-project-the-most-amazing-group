@@ -7,6 +7,115 @@ White: #FFF
 
 */
 
+body{
+    font-family: 'Montserrat', sans-serif;
+    }
+    
+    .s4-app-img{
+        max-width: 500px;
+        margin-top: 5rem;
+        height: auto; 
+        max-height: 700px;
+    }
+    
+    .section-4{
+        display: flex;
+        justify-content: space-between;
+        background-color:#00B172;
+        padding: 4rem 7rem;
+        color: #fff;
+        position: relative;
+        max-width: 100%;    
+    }
+    
+    .s4-header-hero{
+        font-size: 2rem;
+        padding: 0.5rem 0rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    .s4-header-hero h2 {
+        text-decoration: underline;
+        text-underline-position: under;
+        text-underline-offset: 0.9rem;
+    }
+    
+    .s4-header{
+        font-size: 2rem;
+        margin:  1rem 0rem;
+    }
+    
+    .s4-icon{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -125px;
+        margin-left: -100px;
+    }
+    
+    .s4-icon img {
+        width: 12rem;
+    }
+    
+    .s4-text{
+        font-size: 1.7rem;
+        line-height: 3rem;
+        width: 30rem;
+    }
+    
+    @media screen and (max-width: 1350px)  {
+        .section-4 {
+            display: flex;
+            flex-direction: column-reverse; 
+            justify-content: center;
+            align-items: center;       
+            /* background-color: black; */
+            text-align: center;
+            position: static;
+        }
+        .s4-text{
+            font-size: 1.7rem;
+            line-height: 3rem;
+            width: 50rem;
+        }
+        .s4-app-img {
+            display: none;
+        }
+        .s4-icon{
+                position:static;
+                margin: 5rem ;
+            }
+    }
+    
+    @media screen and (max-width: 860px)  {
+        .section-4 {
+            display: flex;
+            flex-direction: column-reverse; 
+            justify-content: center;
+            align-items: center;       
+            /* background-color: black; */
+            text-align: center;
+            position: static;
+        }
+        .s4-text{
+            font-size: 1.7rem;
+            line-height: 3rem;
+            width: 30rem;
+        }
+        .s4-app-img {
+            display: none;
+        }
+        .s4-icon{
+                position:static;
+                margin: 5rem ;
+            }
+        .s4-header-hero{
+            font-size: 1.5rem;
+        }
+    }
+    
+
+
 nav {
     position: fixed;
     background-color: white;
@@ -80,4 +189,5 @@ nav {
   }
 
   
+
 
