@@ -6,3 +6,38 @@ Green: #00B172
 White: #FFF
 
 */
+
+.berfin-columns{
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+
+.berfin-header {
+  align-items: center;
+  text-align: center;
+  font-family: 'Montserrat';
+  
+}
+
+.berfin-columns h1{
+    color:#00B172; 
+  }
+
+.berfin-box{
+    display:flex;
+    flex-direction:column;
+    width: 200px;
+    padding: 30px;
+    margin-left: 30px;
+    font-family: 'Montserrat'; 
+    align-items: center;
+    text-align: center;
+  }
+
+  
