@@ -4,15 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100"" rel="stylesheet">
     <title>Spotify Clone</title>
-    <!-- don't forget to link your styles -->
+    <style>
+      body {
+      font-family: 'Montserrat';font-size: 22px;
+      background-image: url('./images/landing.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      margin: 0;
+    }
+    </style>
   </head>
   <body>
-    Premium Discover Help Download Music for everyone. Spotify is now free on mobile, tablet and computer. Listen to the
-    right music, wherever you are. What’s on Spotify? Millions of Songs There are millions of songs on Spotify HD Music
-    Listen to music as if you were listening live Stream Everywhere Stream music on your smartphone, tablet or computer
-    It’s as yeezy as Kanye West. Search Know what you want to listen to? Just search and hit play. Browse Check out the
-    latest charts, brand new releases and great playlists for right now. Discover Enjoy new music every Monday with your
-    own personal playlist. Or sit back and enjoy Radio.
+    <nav class="navbar"> 
+      <ul>
+        <img class="logo" src="./images/spotify-logo.png">
+        <li><a href="default.asp">Download</a></li>
+        <li><a href="news.asp">Help</a></li>
+        <li><a href="contact.asp">Discover</a></li>
+        <li><a href="about.asp">Premium</a></li>
+      </ul>
+    </nav>
+      <div class="flex-container">
+    <h1 class="item-flex"><strong>Music For everone.</strong></h1>
+    <p class="item-flex">Spotify is now Free on mobile,Tablet and computer</p>
+    <p class="item-flex">Listen to the right music, wherever you are</p>
+    </div>
   </body>
 </html>
