@@ -4,19 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-      <!-- google font - Montserrat   -->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Karla:ital,wght@1,300&family=Montserrat:wght@200&family=Smooch+Sans&display=swap" rel="stylesheet">
-    <!-- linking css file -->
-      <link rel="stylesheet" href="./styles/style.css">
-    
+    <link href="./styles/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+
     <title>Spotify Clone</title>
-    <!-- don't forget to link your styles -->
+    <style>
+      body {
+      font-family: 'Montserrat';font-size: 22px;
+      background-image: url('./images/landing.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      margin: 0;
+    }
+    </style>
   </head>
   <body>
-      <!-- ============= section 4 start =============-->
-   <div class="section-4">
+
+
+    <nav class="navbar"> 
+      <ul>
+        <img class="logo" src="./images/spotify-logo.png">
+        <li><a href="default.asp">Download</a></li>
+        <li><a href="news.asp">Help</a></li>
+        <li><a href="contact.asp">Discover</a></li>
+        <li><a href="about.asp">Premium</a></li>
+      </ul>
+    </nav>
+      <div class="flex-container">
+    <h1 class="item-flex"><strong>Music For everone.</strong></h1>
+    <p class="item-flex">Spotify is now Free on mobile,Tablet and computer</p>
+    <p class="item-flex">Listen to the right music, wherever you are</p>
+    </div>
+
+
+    <div class="third-part">
+      <h1 class="berfin-header"><b>What's on Spotify?</b></h1>
+      <div class="berfin-columns">
+      <div class="berfin-box">
+        <img src="/Users/berfinkaraman/Development/code/phase-1/html-css-project-the-most-amazing-group/images/music-icon.png" alt="speaker" width="100"></img>
+        <h1><b>Millions of Songs</b></h1>
+        <p>There are millions of songs on Spotify</p>
+      </div>
+     <div class="berfin-box">
+        <img src="/Users/berfinkaraman/Development/code/phase-1/html-css-project-the-most-amazing-group/images/high-quality-icon.png" alt="sound waves" width="100"></img>
+       <h1><b>HD Music</b></h1>
+        <p>Listen to music if you were listening music live</p>
+
+      </div>
+      <div class="berfin-box">
+        <img src="/Users/berfinkaraman/Development/code/phase-1/html-css-project-the-most-amazing-group/images/devices-icon.png" alt="devices" width="100"></img>
+        <h1><b>Stream Everywhere</b></h1>
+        <p>Stream music on your smartphone, tablet or computer.</p>
+    </div></div>
+
+<div class="section-4">
         <figure class="s4-icon"><img src="./images/spotify-icon-white.png" alt="spotify icon"></figure>
       <div class="s4-box">
         <div class="s4-header-hero"><h2>It’s as yeezy as Kanye West.</h2></div>
@@ -40,6 +82,7 @@
         </figure>
       </div>
    </div>
-    <!-- ============= section 4 End =============-->
+
+
   </body>
 </html>
